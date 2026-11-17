@@ -27,7 +27,7 @@ This was a coursework assignment used as the university project comparison, as p
 | Lim Chin Jiek | jieklc@student.usm.my | Process Engineer, Repository Administrator |
 | Gabriel Gan Heng Qing | gabzerhq@student.usm.my | Requirements Engineer |
 | Chiew Yee Fan | chiewyeefan@student.usm.my | V&V Engineer |
-| Member D | [fill in] | QA and XP Engineer |
+| Muhammad Yusri Bin Epiyusra | myusri06@student.usm.my | QA and XP Engineer |
 | Member E | [fill in] | Governance Lead, Report Integrator |
 
 ## Structure
