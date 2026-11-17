@@ -22,13 +22,13 @@ This was a coursework assignment used as the university project comparison, as p
 
 ## Team
 
-| Member | USM email | Role |
+| Member | Matric Number | USM email | Role |
 | --- | --- | --- |
-| Lim Chin Jiek | jieklc@student.usm.my | Process Engineer, Repository Administrator |
-| Gabriel Gan Heng Qing | gabzerhq@student.usm.my | Requirements Engineer |
-| Chiew Yee Fan | chiewyeefan@student.usm.my | V&V Engineer |
-| Muhammad Yusri Bin Epiyusra | myusri06@student.usm.my | QA and XP Engineer |
-| Member E | [fill in] | Governance Lead, Report Integrator |
+| Lim Chin Jiek | 24304094 | jieklc@student.usm.my | Process Engineer, Repository Administrator |
+| Gabriel Gan Heng Qing | 24304331 | gabzerhq@student.usm.my | Requirements Engineer |
+| Chiew Yee Fan | 25100545 | chiewyeefan@student.usm.my | V&V Engineer |
+| Muhammad Yusri Bin Epiyusra | 24304694 | myusri06@student.usm.my | QA and XP Engineer |
+| Aly Irwanshah Bin Azman | 24304970 | [fill in] | Governance Lead, Report Integrator |
 
 ## Structure
 
