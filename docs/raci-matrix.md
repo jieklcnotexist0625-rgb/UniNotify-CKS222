@@ -4,7 +4,7 @@ Owner: Lim Chin Jiek (draft with Member E). Exactly one **A** and at least one *
 
 Five roles: Process Engineer (Lim), Requirements Engineer (Gabriel), V&V Engineer (Chiew), QA/XP Engineer (Member D), Governance Lead (Member E).
 
-| Deliverable | Lim | Gabriel | Chiew | Member D | Member E |
+| Deliverable | Lim | Gabriel | Chiew | Yusri | Irwanshah |
 | --- | --- | --- | --- | --- | --- |
 | D1 SPEM method content library | A | I | C | R | C |
 | D2 RACI matrix and Notion EPG publication | A | C | C | I | R |
