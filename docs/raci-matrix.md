@@ -1,6 +1,6 @@
 # Task 1 — RACI Matrix
 
-Owner: Lim Chin Jiek (draft with Member E). Exactly one **A** and at least one **R** per deliverable.
+Owner: Lim Chin Jiek (draft with Member E).
 
 Five roles: Process Engineer (Lim), Requirements Engineer (Gabriel), V&V Engineer (Chiew), QA/XP Engineer (Member D), Governance Lead (Member E).
 
@@ -14,5 +14,3 @@ Five roles: Process Engineer (Lim), Requirements Engineer (Gabriel), V&V Enginee
 | D6 Tailoring, Tuckman, Fist-of-Five and final PDF | C | I | C | I | A |
 
 A = Accountable, R = Responsible, C = Consulted, I = Informed.
-
-Check before submitting: each row has exactly one A; each row has at least one R; all five roles are used.
