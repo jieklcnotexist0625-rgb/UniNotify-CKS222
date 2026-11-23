@@ -8,6 +8,8 @@ SkyCMS handles sensitive campus data such as student admissions, academic record
 
 A symmetrical V-Model connects each constructive phase on the left to a matching analytical testing phase on the right through parallel test engineering. Test plans and checks are written at the same time as requirements and design documents rather than after coding. Catching bugs early is critical because fixing a defect costs 1 time in requirements, 10 to 15 times in coding, and 100 to 1000 times in live production.
 
+![Figure 3.1: Symmetrical V-Model for Vialing](../diagrams/vialing-v-model.png)
+
 | Constructive Phase (Left) | SkyCMS Focus                                                   | Analytical Phase (Right) | Test Document Prepared         |
 | :------------------------ | :------------------------------------------------------------- | :----------------------- | :----------------------------- |
 | Requirements Analysis     | Student privacy rules, role permissions, and FPX payment needs | Acceptance Testing (UAT) | Acceptance Test Plan           |
