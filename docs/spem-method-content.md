@@ -1,43 +1,56 @@
 # Task 1 — SPEM 2.0 Method Content: Code Review and Static Analysis
 
-Owner: Lim Chin Jiek. Branch: `docs/lcj/spem-method-content`.
+Owner: Lim Chin Jiek · Branch: `docs/lcj/spem-method-content` · Updated: 26 November 2026
 
-## Why SPEM separates method content from process
+## 1. Why SPEM separates method content from process
 
-SPEM 2.0 describes **what** is done (roles, work products, tasks, steps) separately from **when** it is done (the process). This matters because the same method content can be reused in different schedules — for example, a code review gate can run in Scrum sprints or in a V-Model project without changing the roles or work products. Be ready to explain this in the viva.
+SPEM 2.0 describes **what** is done — roles, work products, tasks and steps — separately from **when** it is done (the process that sequences them). The separation is what makes the method content reusable: the same review gate can run inside a Scrum increment or a V-Model stage without changing a single role or work product. In this assignment the method content is fixed here and published to Notion; the process that enacts it is described in Task 5.
 
-## Step 1 — Define the three roles
+## 2. Roles
 
-| Role | Why it exists | What it owns | Access needed |
-| --- | --- | --- | --- |
-| Developer / Author | Ensures end-to-end accountability for a code change from start to finish and cannot approve their own work. | The Change Set | **Read-Write:** Change Set<br>**Read-Only:** Review Findings Log, CI Gate Report |
-| Reviewer | Provides an objective evaluation against acceptance criteria, as authors cannot reliably judge their own work. | The Review Findings Log | **Read-Write:** Review Findings Log<br>**Read-Only:** Change Set, CI Gate Report *(No write access to Change Set to prevent becoming a silent co-author)* |
-| Static Analysis Gatekeeper | Eliminates human inconsistency by running automated formatting and security checks, with the ability to block merges. | The CI Gate Report | **Write:** CI Gate Report *(Read-only to all humans so results cannot be altered)*<br>**Read-Only:** Change Set |
+| Role | Owns | Responsibility | Competence | Access mode |
+|---|---|---|---|---|
+| **Developer / Author** | Change Set / Pull Request | Ensures end-to-end accountability for a code change and cannot approve their own work. | Module implementation and test writing. | Read-write: Change Set. Read-only: Review Findings Log, CI Gate Report. |
+| **Reviewer** | Review Findings Log | Provides an objective evaluation against the acceptance criteria and no write access to the Change Set, so the role cannot become a silent co-author. | Evaluation of code against written acceptance criteria. | Read-write: Review Findings Log. Read-only: Change Set, CI Gate Report. |
+| **Static Analysis Gatekeeper** | CI Gate Report | Runs the automated formatting and security checks and can block a merge. | Analyser ruleset configuration (ESLint, SonarQube) and secure coding rules. | Write: CI Gate Report, read-only to all humans. Read-only: Change Set. |
 
-## Step 2 — Work products and access modes
+The three roles are separated so that the author of a change is never its sole approver. That is the control which removes the craft-based pattern in which a developer merges code simply because it compiles on their own machine.
 
-| Work product | Produced by | Input access | Output access |
-| --- | --- | --- | --- |
-| Change Set / Pull Request | Developer / Author | read-write by Author | read-only to Reviewer and Gatekeeper |
-| Review Findings Log | Reviewer | read-write by Reviewer | read-only to Author |
-| CI Gate Report | Static Analysis Gatekeeper | write-only by Gatekeeper | read-only to Author and Reviewer |
+## 3. Work products
 
-## Step 3 — Two tasks broken into sequential steps
+| Work product | Type | Produced from (input) | Output | Access mode |
+|---|---|---|---|---|
+| **Change Set / Pull Request** | Review package | Committed source diff, linked user story and GWT acceptance criteria. | A review-ready change set with context, risk tag and reviewers assigned. | Read-write by the Author; read-only to the Reviewer and the Static Analysis Gatekeeper. |
+| **Review Findings Log** | Findings log | The Change Set and the acceptance criteria it has to satisfy. | Ranked findings with severity, file location and the approve or reject decision. | Read-write by the Reviewer; read-only to the Author; no write access to the Change Set. |
+| **CI Gate Report** | Gate report | The build triggered on the Change Set and the configured ruleset. | Pass or fail per rule, with blocking defects identified. | Written by the Gatekeeper; read-only to the Author and the Reviewer. |
 
-Write the steps in the order they actually happen. Each step should name **who acts** and **what work product they touch**.
+The explicit input and output access modes are the part most students omit, and they are the part that carries the argument. A work product that only one role can write and every role can read gives a single source of truth for each review decision. Retyping the same fact into three places is exactly the duplicate-entry waste the Lean audit identifies in Vialing's admissions workflow.
 
-### Task A — Perform Peer Review
+## 4. Tasks and sequential steps
 
-1. Author opens a change set and requests review.
-2. Reviewer reads the Change Set to inspect the code against acceptance criteria.
-3. Reviewer reads the CI Gate Report to verify that automated checks have passed.
-4. Reviewer records findings in the Review Findings Log and approves or rejects the Change Set.
-5. Author reads the Review Findings Log and updates the Change Set to fix any issues (or merges the Change Set if approved).
+### Task A — Perform peer review
 
-### Task B — Enforce Static Analysis Gate
+**Purpose:**&#8203; ensure a change is evaluated by someone other than its author, against written acceptance criteria.
+**Trigger:**&#8203; a change set is opened and review is requested.
 
-1. Build is triggered on the change set.
-2. Static Analysis Gatekeeper reads the Change Set.
-3. Static Analysis Gatekeeper runs automated formatting and security checks and writes the results to the CI Gate Report.
-4. Gate result is published and merge is allowed or blocked.
+| Step | Instruction | Exit condition |
+|---|---|---|
+| A1 | Author opens a change set and requests review. | Change set exists and a reviewer is requested. |
+| A2 | Reviewer reads the Change Set and checks the code against the acceptance criteria. | Every acceptance criterion marked met or not met. |
+| A3 | Reviewer reads the CI Gate Report to confirm the automated checks passed. | Gate result known: pass or fail. |
+| A4 | Reviewer records findings in the Review Findings Log and approves or rejects the Change Set. | Decision recorded with its rationale. |
+| A5 | Author fixes the issues and updates the Change Set, or merges it if approved. | Change merged, or returned to step A2. |
 
+### Task B — Enforce the static analysis gate
+
+**Purpose:**&#8203; apply formatting and security checks consistently, without relying on reviewer memory.
+**Trigger:**&#8203; a build is triggered on a change set.
+
+| Step | Instruction | Exit condition |
+|---|---|---|
+| B1 | A build is triggered on the change set. | Build completes and the artefact is available. |
+| B2 | Gatekeeper reads the Change Set. | Scope of the change understood. |
+| B3 | Gatekeeper runs the formatting and security checks and writes the CI Gate Report. | Report shows pass or fail per rule. |
+| B4 | Gate result is published and the merge is allowed or blocked. | Merge state set; blocking findings raised to the author. |
+
+The two tasks are interlocked rather than parallel: Task B step 4 decides whether a merge is possible at all, and Task A step 3 is where the Reviewer checks that outcome before approving. Because both records are work products rather than chat messages, the evidence for a change sits in one place instead of being scattered across conversations.
