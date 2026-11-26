@@ -18,11 +18,11 @@ The three roles are separated so that the author of a change is never its sole a
 
 ## 3. Work products
 
-| Work product | Type | Produced from (input) | Output | Access mode |
+| Work product | Producer | Produced from (input) | Output | Access mode |
 |---|---|---|---|---|
-| **Change Set / Pull Request** | Review package | Committed source diff, linked user story and GWT acceptance criteria. | A review-ready change set with context, risk tag and reviewers assigned. | Read-write by the Author; read-only to the Reviewer and the Static Analysis Gatekeeper. |
-| **Review Findings Log** | Findings log | The Change Set and the acceptance criteria it has to satisfy. | Ranked findings with severity, file location and the approve or reject decision. | Read-write by the Reviewer; read-only to the Author; no write access to the Change Set. |
-| **CI Gate Report** | Gate report | The build triggered on the Change Set and the configured ruleset. | Pass or fail per rule, with blocking defects identified. | Written by the Gatekeeper; read-only to the Author and the Reviewer. |
+| **Change Set / Pull Request** | Developer / Author | Committed source diff, linked user story and GWT acceptance criteria. | A review-ready change set with context, risk tag and reviewers assigned. | Read-write by the Author; read-only to the Reviewer and the Static Analysis Gatekeeper. |
+| **Review Findings Log** | Reviewer | The Change Set and the acceptance criteria it has to satisfy. | Ranked findings with severity, file location and the approve or reject decision. | Read-write by the Reviewer; read-only to the Author; no write access to the Change Set. |
+| **CI Gate Report** | Static Analysis Gatekeeper | The build triggered on the Change Set and the configured ruleset. | Pass or fail per rule, with blocking defects identified. | Written by the Gatekeeper; read-only to the Author and the Reviewer. |
 
 The explicit input and output access modes are the part most students omit, and they are the part that carries the argument. A work product that only one role can write and every role can read gives a single source of truth for each review decision. Retyping the same fact into three places is exactly the duplicate-entry waste the Lean audit identifies in Vialing's admissions workflow.
 
