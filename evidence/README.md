@@ -6,4 +6,4 @@ Place saved evidence here:
 
 Do not alter any screenshot or date. The lecturer's FAQ warns that edited evidence costs marks.
 
-Owner: Member D (chat screenshots and commit log); Member E (Fist-of-Five).
+Owner: Aly Irwanshah Bin Azman (chat screenshots and commit log); Muhammad Yusri Bin Epiyusra (Fist-of-Five).
