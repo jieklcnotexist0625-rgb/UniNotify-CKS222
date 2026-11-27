@@ -43,9 +43,9 @@ Using Tuckman's four-stage model (**Forming, Storming, Norming, Performing**; Tu
 | **Forming** | Team roster, role allocations, and repository/governance responsibilities were established at the start of the coursework. |
 | **Storming** | Differences emerged around group composition/prior CCA103 familiarity and how far to expand a student coursework baseline to full-project and multi-module SaaS scale; resolved by agreeing on transparent scope disclosure and full-scale expansion. |
 | **Norming** | Shared working norms were put in place through the Notion EPG, RACI matrix, Git branching/PR rules, Given-When-Then criteria, and Definition of Done. |
-| **Performing** | Team members execute their assigned tasks and peer reviews, coordinate evidence for submission gates, and resolve decisions collectively via Fist-of-Five consensus. |
+| **Performing** | Team members execute their assigned tasks and peer reviews, coordinate evidence for submission gates, and resolve decisions collectively via group consensus polls. |
 
-> **Evidence Note (Appendix / Chat Extracts):** Attach unedited chat screenshots showing (a) initial role/task setup, (b) the scope-expansion discussion and agreement, and (c) the Fist-of-Five consensus vote, with visible dates and participant names (no edited or backdated images).
+> **Evidence Note (Appendix / Chat Extracts):** Attach unedited chat screenshots showing (a) initial role/task setup, (b) the scope-expansion and cut-scope agreement, and (c) the group consensus polls, with visible dates and participant names (no edited or backdated images).
 
 ### 6.3.2 Conflict and Resolution
 
@@ -62,28 +62,22 @@ We addressed this through three governance controls:
 
 ### 6.4.1 Decision Context
 
-The group voted on the following governance proposal:
-> *"Do we adopt the hybrid prescriptive process (Scrum-like short iterations + V-Model gate checks + XP practices + SPEM/RACI governance) for the remainder of CKS222 Assignment 1?"*
-
-Before voting, the team defined the **0–5 Fist-of-Five scale** (Lucid Meetings, n.d.):
-- **5 fingers:** Strong support / ready to champion.
-- **4 fingers:** Support with minor suggestions.
-- **3 fingers:** Acceptable / no major concerns.
-- **0–2 fingers:** Concern or objection requiring discussion and adjustment before consensus.
+The group tested alignment on scope and process adoption in the **CKS222 Assignment Group** chat using WhatsApp polls mapped to our agreement scale (Lucid Meetings, n.d.):
+- **Scope & cut-scope alignment (10:46 PM):** Confirming focus strictly on (1) automated incomplete-document reminders three days before the intake deadline and (2) the applicant missing-document status view, while excluding SMS/in-app channels (email only for this increment), admin analytics dashboard, bulk CSV import, payment/PTPTN integration, and mobile app / multi-language / MQA report export.
+- **Process & role-ownership alignment (8:47 AM):** Confirming role ownership across Lim, Gabriel, Chiew, Irwan, and Yusri, alongside fixed increment scope, test-before-merge checks, pair programming on the first review cycle, test-first practice, and CI checks blocking red builds.
 
 ### 6.4.2 Vote Evidence and Resolution of Votes Below Three
 
-> **Evidence Note (Appendix D):** Insert the unedited group chat screenshot showing all five members' votes and the date in **Appendix D**, and replace the placeholder entries below with the exact votes and comments from that screenshot.
+> **Evidence Note (Appendix D):** Both unedited WhatsApp group chat screenshots are included in **Appendix D**. Because WhatsApp polls display aggregate option tallies rather than per-voter names or a 0–5 numeric count, the table below records the exact poll results without fabricating individual row assignments.
 
-| Member | Vote (0–5) | Comment / Concern |
+| Consensus Poll / Option | Tally Recorded | Notes / Interpretation on Scale |
 | :--- | :---: | :--- |
-| Lim Chin Jiek | `[INSERT VOTE]` | `[INSERT COMMENT]` |
-| Gabriel Gan Heng Qing | `[INSERT VOTE]` | `[INSERT COMMENT]` |
-| Chiew Yee Fan | `[INSERT VOTE]` | `[INSERT COMMENT]` |
-| Aly Irwanshah Bin Azman | `[INSERT VOTE]` | `[INSERT COMMENT]` |
-| Muhammad Yusri Bin Epiyusra | `[INSERT VOTE]` | `[INSERT COMMENT]` |
+| **Poll 1 — Two-Feature Scope Comfort:** `5 - Fully support` | **3 votes** | Strong alignment with building only the two core features |
+| **Poll 1 — Two-Feature Scope Comfort:** `4 - Support, minor reservations` | **2 votes** | Supportive with minor reservations; no `< 3` blocking votes |
+| **Poll 2 — Five-Person Process Workability:** `5 - Fully support` | **5 votes** | Unanimous top-tier support for role split, testing/CI gates, and scope freeze |
+| **Poll 2 — Five-Person Process Workability:** `4 - Support, minor reservations` | **0 votes** | No reservations recorded on process workability |
 
-**Resolution of Any Vote Below 3:** If any member voted `0`, `1`, or `2`, record the specific concern raised in the group chat and how the team resolved it prior to adoption (e.g., scoping increments tightly or clarifying evidence responsibilities), or note explicitly if all votes were `3` or above.
+**Resolution of Any Vote Below 3:** No vote below `3` (or below `4` on the WhatsApp poll options) was recorded across either poll. Minor reservations on scope were addressed by explicitly freezing the feature set to the two core workflows and documenting excluded features up front rather than expanding scope mid-way.
 
 ---
 
