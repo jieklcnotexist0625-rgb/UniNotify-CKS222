@@ -23,7 +23,7 @@ This was a coursework assignment used as the university project comparison, as p
 ## Team
 
 | Member | Matric Number | USM email | Role | Github Acc Name |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | Lim Chin Jiek | 24304094 | jieklc@student.usm.my | Process Engineer, Repository Administrator | Jacklcdying(USM), jieklcnotexist0625-rgb(personal) |
 | Gabriel Gan Heng Qing | 24304331 | gabzerhq@student.usm.my | Requirements Engineer | Gabriel-code-commits |
 | Chiew Yee Fan | 25100545 | chiewyeefan@student.usm.my | V&V Engineer | Fake1Doge |
