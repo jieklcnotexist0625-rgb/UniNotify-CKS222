@@ -22,13 +22,13 @@ This was a coursework assignment used as the university project comparison, as p
 
 ## Team
 
-| Member | Matric Number | USM email | Role |
+| Member | Matric Number | USM email | Role | Github Acc Name |
 | --- | --- | --- | --- |
-| Lim Chin Jiek | 24304094 | jieklc@student.usm.my | Process Engineer, Repository Administrator |
-| Gabriel Gan Heng Qing | 24304331 | gabzerhq@student.usm.my | Requirements Engineer |
-| Chiew Yee Fan | 25100545 | chiewyeefan@student.usm.my | V&V Engineer |
-| Aly Irwanshah Bin Azman | 24304970 | irwanchiew@student.usm.my | QA and XP Engineer |
-| Muhammad Yusri Bin Epiyusra | 24304694 | myusri06@student.usm.my | Governance Lead, Report Integrator |
+| Lim Chin Jiek | 24304094 | jieklc@student.usm.my | Process Engineer, Repository Administrator | Jacklcdying(USM), jieklcnotexist0625-rgb(personal) |
+| Gabriel Gan Heng Qing | 24304331 | gabzerhq@student.usm.my | Requirements Engineer | Gabriel-code-commits |
+| Chiew Yee Fan | 25100545 | chiewyeefan@student.usm.my | V&V Engineer | Fake1Doge |
+| Aly Irwanshah Bin Azman | 24304970 | irwanchiew@student.usm.my | QA and XP Engineer | Irwanchiew06 |
+| Muhammad Yusri Bin Epiyusra | 24304694 | myusri06@student.usm.my | Governance Lead, Report Integrator | yusrimm，yusrikk |
 
 ## Structure
 
