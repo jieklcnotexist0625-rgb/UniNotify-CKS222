@@ -1,0 +1,61 @@
+1548a31 | 2026-11-27 | yusri131106@gmail.com        | Merge pull request #21 from jieklcnotexist0625-rgb/gantt/my/contribution-gantt-v2
+a2b66c5 | 2026-11-27 | yusri131106@gmail.com        | docs(evidence): add WhatsApp poll screenshots to evidence directory
+b2d2440 | 2026-11-27 | yusri131106@gmail.com        | docs(gantt): update Appendix E Gantt chart with verified commit dates
+7f14d7d | 2026-11-27 | yusri131106@gmail.com        | Delete contribution-gantt.md
+eb6944f | 2026-11-27 | irwanchiew@student.usm.my    | Merge pull request #20 from jieklcnotexist0625-rgb/gantt/my/contribution-gantt
+daa33f6 | 2026-11-27 | gabzerhq@student.usm.my      | add dcd module b
+233e523 | 2026-11-27 | gabzerhq@student.usm.my      | docs(diagrams): add Module B design class diagram
+6165104 | 2026-11-27 | gabzerhq@student.usm.my      | Add files via upload
+528be10 | 2026-11-27 | gabzerhq@student.usm.my      | docs(diagrams): add Module B design class diagram
+3700c7d | 2026-11-27 | jieklc@student.usm.my        | docs(cca103): expand module d dashboard and calendar narrative
+3b1a026 | 2026-11-27 | myusri06@student.usm.my      | docs(gantt): remove GitHub handles and standardize team names in Appendix E
+5b992f1 | 2026-11-27 | myusri06@student.usm.my      | docs(gantt): add 16-week group contribution Gantt chart for Appendix E
+097f274 | 2026-11-27 | jieklcnotexist0625@gmail.com | Add source link for Vialing in README
+65be59d | 2026-11-27 | jieklcnotexist0625@gmail.com | Fix table formatting in README.md
+1fda19e | 2026-11-27 | jieklcnotexist0625@gmail.com | Update team member details in README
+46465fd | 2026-11-27 | jieklcnotexist0625@gmail.com | Merge pull request #12 from jieklcnotexist0625-rgb/evidence/aia/chat-discussions
+36ef650 | 2026-11-27 | irwanchiew@student.usm.my    | evidence(chat) add chat discussion evidence
+5852a57 | 2026-11-27 | gabzerhq@student.usm.my      | doc(cca103) : expand module b reminder narrative
+dd25834 | 2026-11-27 | gabzerhq@student.usm.my      | doc(cca103) : expand module b reminder narrative
+8b101c6 | 2026-11-27 | chiewyeefan@student.usm.my   | docs(attribution): clarify CCA103 original team and CKS222 audit roles
+4530492 | 2026-11-27 | jieklcnotexist0625@gmail.com | Merge pull request #18 from jieklcnotexist0625-rgb/docs/my/tailoring-4ps
+9190090 | 2026-11-27 | myusri06@student.usm.my      | docs(tailor): update consensus results from WhatsApp group polls
+d97f0a7 | 2026-11-27 | myusri06@student.usm.my      | docs(tailor): add Task 5 process tailoring and governance documentation
+7f6c562 | 2026-11-27 | jieklcnotexist0625@gmail.com | Update project context with comparison statement
+23f48db | 2026-11-27 | gabzerhq@student.usm.my      | Fixing Module B expansion details
+0dc0c6b | 2026-11-27 | gabzerhq@student.usm.my      | Finalise GWT and stories
+0ee6607 | 2026-11-27 | gabzerhq@student.usm.my      | Finalise definition of done
+a54e624 | 2026-11-27 | irwanchiew@student.usm.my    | Update owner names in README.md
+ee24e20 | 2026-11-26 | jieklc@student.usm.my        | docs(spem): Fixes some small typo and text issues
+12f4e87 | 2026-11-26 | jieklc@student.usm.my        | docs(spem): added more details to the roles, work product and task tables.
+7c4bfea | 2026-11-26 | jieklcnotexist0625@gmail.com | Merge pull request #10 from jieklcnotexist0625-rgb/docs/gghq/user-stories-gwt
+017541c | 2026-11-26 | gabzerhq@student.usm.my      | Add Task 2 user stories, INVEST and GWT
+eef14a5 | 2026-11-26 | jieklcnotexist0625@gmail.com | Merge pull request #11 from jieklcnotexist0625-rgb/docs/gghq/module-b-expansion
+38eb376 | 2026-11-26 | gabzerhq@student.usm.my      | Add Module B expansion
+1cb4356 | 2026-11-25 | jieklcnotexist0625@gmail.com | Merge pull request #6 from jieklcnotexist0625-rgb/docs/aia/review-ci-checklist
+006afdd | 2026-11-25 | irwanchiew@student.usm.my    | docs(ci): add CI and code review checklist document
+8eca9a9 | 2026-11-25 | jieklcnotexist0625@gmail.com | Merge pull request #7 from jieklcnotexist0625-rgb/docs/cyf/uninotify-diagrams
+c3f51e2 | 2026-11-25 | chiewyeefan@student.usm.my   | docs(diagrams): add UniNotify UML diagrams and figure references
+b18c34e | 2026-11-25 | jieklcnotexist0625@gmail.com | Merge pull request #5 from jieklcnotexist0625-rgb/docs/cyf/cca103-design-expansion
+ec2b43a | 2026-11-24 | chiewyeefan@student.usm.my   | docs(cca103): expand user and assignment management design narrative
+72a1dcc | 2026-11-23 | jieklcnotexist0625@gmail.com | Merge pull request #4 from jieklcnotexist0625-rgb/docs/cyf/v-model-mapping
+054256f | 2026-11-23 | chiewyeefan@student.usm.my   | docs(diagrams): add symmetrical V-Model diagram for Vialing
+953b563 | 2026-11-23 | chiewyeefan@student.usm.my   | docs(vvmodel): add V-Model mapping and V&V analysis for Vialing
+0e7ab0f | 2026-11-23 | jieklcnotexist0625@gmail.com | Merge pull request #3 from jieklcnotexist0625-rgb/docs/aia/lean-xp-draft
+93cc1ed | 2026-11-23 | irwanchiew@student.usm.my    | Add lean waste audit and XP practices documentation
+7d43053 | 2026-11-23 | irwanchiew@student.usm.my    | Update email for Aly Irwanshah Bin Azman
+69b2910 | 2026-11-17 | jieklc@student.usm.my        | FIx 2 role conflicts
+3cfda01 | 2026-11-17 | jieklc@student.usm.my        | Fix role conflict in README.md
+7a0a0c9 | 2026-11-17 | jieklc@student.usm.my        | Fix table formatting issue in README.md
+1c8dfab | 2026-11-17 | jieklc@student.usm.my        | Added Matric Number column in Team table in README.md
+cb35d75 | 2026-11-17 | jieklc@student.usm.my        | docs(raci): fix accountability allocation
+9123623 | 2026-11-17 | jieklc@student.usm.my        | Merge branch 'main' of https://github.com/jieklcnotexist0625-rgb/UniNotify-CKS222
+96862c6 | 2026-11-17 | jieklcnotexist0625@gmail.com | Updates RACI matrix of five roles
+2a51956 | 2026-11-17 | jieklc@student.usm.my        | Updates member roles with the raci matrix
+be386c1 | 2026-11-17 | jieklc@student.usm.my        | docs(spem): define roles, work products and tasks
+8323998 | 2026-11-17 | jieklcnotexist0625@gmail.com | Merge pull request #1 from jieklcnotexist0625-rgb/docs/lcj/spem-method-content
+61b5a0e | 2026-11-17 | jieklc@student.usm.my        | Merge branch 'main' of https://github.com/jieklcnotexist0625-rgb/UniNotify-CKS222intodocs/lcj/spem-method-content
+e596053 | 2026-11-17 | yusri131106@gmail.com        | Update README.md
+1450f97 | 2026-11-17 | jieklc@student.usm.my        | docs(spem): define three review roles
+0434d25 | 2026-11-17 | jieklc@student.usm.my        | chore(repo): initialise project structure
+bfe12a9 | 2026-11-17 | jieklcnotexist0625@gmail.com | Initial commit
