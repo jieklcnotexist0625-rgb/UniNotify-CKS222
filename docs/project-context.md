@@ -1,4 +1,4 @@
-# Project Context — to be placed in the early sections of the CKS222 report
+# Project Context
 
 ## Source assignment
 
@@ -24,14 +24,4 @@
 | Assignment Management System | Ku Wei Han | Assignment lifecycle, lecturer/student actions, due-date data |
 | User Dashboard and Calendar | Siti Nurazlina Binti Mohd Muna | Agenda views, filtering, notification display, preferences |
 
-## Statement to include
-
-> This report uses the UniNotify system analysis and design assignment from CCA103 as the university group project for comparison, as permitted by the lecturer. Only two members of the current CKS222 group participated in that coursework; the remaining three contribute to the audit and expansion work in this report.
-
-## TODO before submitting
-
-- [ ] Confirm the exact development methodology stated in Report 1 section 2.1
-- [ ] Confirm the architecture type stated in Report 2 section 4.1.1
-- [ ] Confirm the testing strategy stated in Report 2 section 5.2
-- [ ] Add the real UniNotify UML diagrams to `diagrams/`
-- [ ] Write the expansion narrative for each of the four modules
+This report uses the UniNotify system analysis and design assignment from CCA103 as the university group project for comparison, as permitted by the lecturer. Only two members of the current CKS222 group participated in that coursework; the remaining three contribute to the audit and expansion work in this report.
