@@ -1,7 +1,7 @@
 # Expanded CCA103 Design Narrative: User Management and Assignment Management
 
 ## Context and Scope Expansion
-In CCA103 Systems Analysis and Design (Semester II, 2025/2026, Group 36), the team designed UniNotify: Assignment and Deadline Reminder System across Report 1 (System Analysis) and Report 2 (System Design and Implementation). Only Lim Chin Jiek and Gabriel Gan built the original CCA103 system, while Chiew Yee Fan contributes through the CKS222 process audit and scope expansion.
+In CCA103 Systems Analysis and Design (Semester II, 2025/2026, Group 36), the team designed UniNotify: Assignment and Deadline Reminder System across Report 1 (System Analysis) and Report 2 (System Design and Implementation). Only Lim Chin Jiek and Gabriel Gan built the original CCA103 system, the remaining CKS222 members contribute through the process audit and scope expansion.
 
 The original coursework focused mainly on a single-student task tracker. For CKS222, the scope is expanded into a fuller multi-role academic platform while keeping the original four modules: Module A (User Management System), Module B (Reminder and Notification), Module C (Assignment Management System), and Module D (User Dashboard and Calendar View).
 
