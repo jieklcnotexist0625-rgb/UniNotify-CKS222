@@ -1,77 +1,64 @@
-# Appendix E: Group Contribution Gantt Chart (16-Week Timeline)
+# Appendix E: Group Contribution Gantt Chart
 
 **Course:** CKS222 Software Process and Life Cycle (Semester I, 2026/2027)  
-**Project:** CKS222 Software Process and Life Cycle — Group Assignment Gantt Chart (16-Week Timeline)  
-**Owner:** Muhammad Yusri Bin Epiyusra (`myusri06@student.usm.my`) — Governance Lead & Report Integrator  
+**Project:** Process audit of Vialing (SkyCMS) against the CCA103 UniNotify coursework baseline  
+**Owner:** Muhammad Yusri Bin Epiyusra (`myusri06@student.usm.my`) — Governance Lead and Report Integrator  
+**Submission:** Friday 27 November 2026 (Week 9)  
 
 ---
 
-## 1. Milestones & Phase Legend
+## 1. Project Milestones
 
-### Milestones
-- **M1:** Requirements & SPEM Setup (`W1`)
-- **M2:** Analysis & Stories Complete (`W5`)
-- **M3:** V&V, Lean & Tailoring Complete (`W8`)
-- **M4:** Draft Integration Complete (`W14`)
-- **M5:** Final Report Submission (`W16`)
-
-### Phase Codes
-- **P1:** Initiation
-- **P2:** SPEM / EPG
-- **P3:** Agile Requirements
-- **P4:** Symmetrical V-Model
-- **P5:** Lean & XP Audit
-- **P6:** Tailoring & Team
-- **P7:** Report Integration
-- **P8:** Final Submission
+| Milestone | Deliverable / Gate | Target Date | Gatekeeper | Primary Output / Artefact |
+|---|---|:---:|---|---|
+| **M1** | Project Kickoff, Scope Freeze & Repo Initialization | 17 Nov 2026 | Lim Chin Jiek | Repository structure, README & role assignments |
+| **M2** | Task 1 Complete — SPEM Method Content, RACI & Notion EPG | 18 Nov 2026 | Lim Chin Jiek | `docs/spem-method-content.md` & PR #1, PR #2 |
+| **M3** | Task 3 & Task 4 Draft Complete — V-Model & Lean/XP Practices | 23 Nov 2026 | Chiew & Aly | `docs/v-model-mapping.md`, `docs/lean-xp.md`, PR #3, PR #4 |
+| **M4** | Design Expansion Complete — Modules A & C Design Narratives | 24 Nov 2026 | Chiew Yee Fan | `docs/cca103-design-expansion.md` & PR #5 |
+| **M5** | Task 4 CI Checklist & UML Diagrams Complete | 25 Nov 2026 | Aly & Chiew | `docs/review-ci-checklist.md`, PR #6, PR #7 |
+| **M6** | Task 2 Complete — User Stories, INVEST & GWT Scenarios | 26 Nov 2026 | Gabriel Gan | `docs/user-stories-gwt.md`, PR #10, PR #11 |
+| **M7** | Task 5 Complete — Münch 4 Ps, Tuckman & Consensus Poll Evidence | 27 Nov 2026 | Muhammad Yusri | `docs/tailoring-4ps.md` & PR #18 |
+| **M8** | Final Integration, Appendices A–E Assembly & Submission | 27 Nov 2026 | Yusri & Lim | `evidence/contribution-log.md`, PR #12, PR #19, Final PDF |
 
 ---
 
-## 2. Full Gantt Matrix (`W1`–`W16`)
+## 2. Contribution Gantt by Day (16 Nov – 27 Nov 2026)
 
-| Task / Deliverable | Assignee / Role | W1 | W2 | W3 | W4 | W5 | W6 | W7 | W8 | W9 | W10 | W11 | W12 | W13 | W14 | W15 | W16 |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Milestones** | — | **M1** | — | — | — | **M2** | — | — | **M3** | — | — | — | — | — | **M4** | — | **M5** |
-| **Phase 1: Project Initiation & Setup** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Team Formation & Role Assignment | Lim Chin Jiek (Leader) | P1 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Topic Selection & Scoping (Vialing vs. UniNotify) | Lim Chin Jiek & Group | P1 | P1 | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Repository & Branching Structure Setup | Lim Chin Jiek (Admin) | P1 | P1 | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| **Phase 2: SPEM 2.0 & Notion EPG (Task 1)** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Define SPEM 2.0 Roles, Work Products & Tasks | Lim Chin Jiek (Admin) | — | P2 | P2 | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Build Relational Databases in Notion EPG | Lim Chin Jiek (Admin) | — | P2 | P2 | P2 | — | — | — | — | — | — | — | — | — | — | — | — |
-| Construct RACI Matrix for 5 Roles & 6 Deliverables | Lim Chin Jiek (Admin) | — | — | P2 | P2 | — | — | — | — | — | — | — | — | — | — | — | — |
-| **Phase 3: Requirements & User Stories (Task 2)** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Select Vialing Incomplete Document Backlog Item | Gabriel Gan (Req. Eng.) | — | P3 | P3 | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Draft Agile User Stories (US-1 & US-2) | Gabriel Gan (Req. Eng.) | — | — | P3 | P3 | — | — | — | — | — | — | — | — | — | — | — | — |
-| Perform INVEST Evaluation & Weak Criteria Analysis | Gabriel Gan (Req. Eng.) | — | — | P3 | P3 | P3 | — | — | — | — | — | — | — | — | — | — | — |
-| Formulate GWT Criteria & Definition of Done | Gabriel Gan (Req. Eng.) | — | — | — | P3 | P3 | — | — | — | — | — | — | — | — | — | — | — |
-| **Phase 4: Symmetrical V-Model V&V (Task 3)** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Identify Secure Feature & Mapping Boundaries | Chiew Yee Fan (V&V Eng.) | — | — | P4 | P4 | — | — | — | — | — | — | — | — | — | — | — | — |
-| Construct Constructive (Left) & Analytical (Right) V-Model | Chiew Yee Fan (V&V Eng.) | — | — | — | P4 | P4 | P4 | — | — | — | — | — | — | — | — | — | — |
-| Define Quality Attribute & Technical Constraint V&V | Chiew Yee Fan (V&V Eng.) | — | — | — | — | P4 | P4 | — | — | — | — | — | — | — | — | — | — |
-| **Phase 5: Lean Wastes & XP Practices (Task 4)** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Audit 4 Lean Wastes & Propose Remedies | Aly Irwanshah (QA & XP) | — | — | — | P5 | P5 | P5 | — | — | — | — | — | — | — | — | — | — |
-| Align Extreme Programming Practices (Pair Prog, TDD, CI) | Aly Irwanshah (QA & XP) | — | — | — | — | P5 | P5 | P5 | — | — | — | — | — | — | — | — | — |
-| Verify GitHub Commit Logs & CI Evidence | Aly Irwanshah (QA & XP) | — | — | — | — | — | P5 | P5 | P5 | — | — | — | — | — | — | — | — |
-| **Phase 6: Tailoring & Governance (Task 5)** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Analyze Münch's 4 Ps & Hybrid Justification | Group (All Members) | — | — | — | — | P6 | P6 | P6 | — | — | — | — | — | — | — | — | — |
-| Tuckman Team Dynamics & Conflict Analysis | Group (All Members) | — | — | — | — | — | P6 | P6 | P6 | — | — | — | — | — | — | — | — |
-| Conduct Fist-of-Five Consensus Voting | Group (All Members) | — | — | — | — | — | — | P6 | P6 | — | — | — | — | — | — | — | — |
-| **Phase 7: Report Integration & Assembly (Task 7)** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Report Structure & Cross-Section Consistency Checks | Muhammad Yusri (Integrator) | — | — | — | — | — | P7 | P7 | P7 | P7 | P7 | P7 | P7 | — | — | — | — |
-| References, Citation Auditing & Appendix Assembly | Muhammad Yusri (Integrator) | — | — | — | — | — | — | P7 | P7 | P7 | P7 | P7 | P7 | P7 | P7 | — | — |
-| Final Gantt Chart Creation & Appendix E Commit | Muhammad Yusri (Integrator) | — | — | — | — | — | — | — | P7 | P7 | P7 | P7 | P7 | P7 | P7 | P7 | — |
-| **Phase 8: Final Submission** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| Group Contribution Log (Appendix A Signatures) | Group (All Members) | — | — | — | — | — | — | — | — | P8 | P8 | P8 | P8 | P8 | P8 | P8 | — |
-| Final Proofread, Evidence Check & Submission | Lim Chin Jiek & Yusri | — | — | — | — | — | — | — | — | — | — | — | — | — | — | P8 | P8 |
+`■` = day with commits by that member · `◇` = day with chat/poll participation without commit · blank = no recorded commit activity
+
+| Member | 16 Mon | 17 Tue | 18 Wed | 19 Thu | 20 Fri | 21 Sat | 22 Sun | 23 Mon | 24 Tue | 25 Wed | 26 Thu | 27 Fri |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Lim Chin Jiek | ◇ | ■ | ■ | | | | | ■ | ■ | ■ | | ■ |
+| Gabriel Gan Heng Qing | ◇ | | | | | | | | | | ■ | ■ |
+| Chiew Yee Fan | ◇ | | ■ | | | | | ■ | ■ | ■ | | ■ |
+| Aly Irwanshah Bin Azman | ◇ | | | | | | | ■ | | ■ | | ■ |
+| Muhammad Yusri Bin Epiyusra | ◇ | ■ | | | | | | | | | | ■ |
 
 ---
 
-## 3. Workload & Overlap Summary by Assignee
+## 3. Task-Level Schedule & Repository Commit Evidence
 
-- **Lim Chin Jiek (Leader / Admin):** Leads Phase 1 (`W1`–`W2`) and Phase 2 (`W2`–`W4`), co-leads Phase 1 scoping (`W1`–`W2`) and Phase 8 final proofread/submission (`W15`–`W16`).
-- **Gabriel Gan (Req. Eng.):** Leads Phase 3 across `W2`–`W5` (backlog selection, user stories, INVEST analysis, GWT criteria, and Definition of Done).
-- **Chiew Yee Fan (V&V Eng.):** Leads Phase 4 across `W3`–`W6` (secure feature mapping, left/right V-Model phases, quality attribute and technical constraint V&V).
-- **Aly Irwanshah (QA & XP):** Leads Phase 5 across `W4`–`W8` (Lean waste audit and remedies, XP alignment, and GitHub commit/CI verification).
-- **Group (All Members):** Collaborates on Phase 6 governance (`W5`–`W8`) and Phase 8 Appendix A contribution log sign-offs (`W9`–`W15`).
-- **Muhammad Yusri (Integrator):** Leads Phase 7 integration across `W6`–`W15` (consistency checks, references/appendices, and Gantt chart/Appendix E) and co-leads Phase 8 final proofread/submission (`W15`–`W16`).
+| Task / Deliverable | Primary Owner | Start Date | End Date | Exact Commit / PR Evidence |
+|---|---|:---:|:---:|---|
+| Group kickoff & scope agreement | All Members | 16 Nov | 16 Nov | WhatsApp group chat log (`evidence/chat-discussion.md`) |
+| Initial repository structure & README initialization | Lim Chin Jiek & Yusri | 17 Nov | 17 Nov | Commits `bfe12a9`, `0434d25`, README team updates |
+| SPEM 2.0 method content (roles, work products, tasks) | Lim Chin Jiek | 17 Nov | 27 Nov | PR #1 (`spem-method-content`), 27 Nov text polish |
+| RACI matrix for 5 roles & 6 deliverables | Lim Chin Jiek | 17 Nov | 17 Nov | `docs(raci): fix accountability allocation` |
+| Notion EPG 4 linked databases | Lim Chin Jiek | 17 Nov | 27 Nov | Notion EPG page revision logs |
+| Symmetrical V-Model mapping & V&V analysis | Chiew Yee Fan | 23 Nov | 23 Nov | `docs(vvmodel)` & PR #4 (`v-model-mapping`) |
+| Symmetrical V-Model diagram for Vialing | Chiew Yee Fan | 23 Nov | 23 Nov | `docs(diagrams)` commit & diagram export |
+| Lean waste audit & XP practices documentation | Aly Irwanshah | 23 Nov | 23 Nov | `docs(lean-xp)` & PR #3 (`lean-xp-draft`) |
+| Module A & C design expansion narrative | Chiew Yee Fan | 24 Nov | 25 Nov | PR #5 (`cca103-design-expansion`) |
+| CI checklist & code review guidelines | Aly Irwanshah | 25 Nov | 25 Nov | PR #6 (`review-ci-checklist`) |
+| UniNotify UML diagrams & figure references | Chiew Yee Fan | 25 Nov | 25 Nov | PR #7 (`uninotify-diagrams`) |
+| Agile user stories US-1 & US-2, INVEST & GWT | Gabriel Gan | 26 Nov | 27 Nov | PR #10 (`user-stories-gwt`), finalized 27 Nov |
+| Module B design expansion & reminder narrative | Gabriel Gan | 26 Nov | 27 Nov | PR #11 (`module-b-expansion`), finalized 27 Nov |
+| Chat discussion evidence capture | Aly Irwanshah | 27 Nov | 27 Nov | `evidence(chat)` commit & PR #12 |
+| Münch 4 Ps tailoring analysis & hybrid justification | Muhammad Yusri | 27 Nov | 27 Nov | `docs(tailor): add Task 5 process tailoring` |
+| Tuckman team dynamics & consensus poll results | Muhammad Yusri | 27 Nov | 27 Nov | `docs(tailor): update consensus results from WhatsApp polls` |
+| Task 5 process tailoring PR merge | Lim Chin Jiek | 27 Nov | 27 Nov | PR #18 (`docs/my/tailoring-4ps`) |
+| CCA103 audit roles clarification | Chiew & Lim | 27 Nov | 27 Nov | PR #19 (`docs/cyf/final-check`) |
+| Module D dashboard & calendar narrative expansion | Lim Chin Jiek | 27 Nov | 27 Nov | `docs(cca103): expand module d dashboard` |
+| Module B design class diagrams | Gabriel Gan | 27 Nov | 27 Nov | `docs(diagrams): add Module B design class diagram` |
+| Group Contribution Log (Appendix A) | Muhammad Yusri | 27 Nov | 27 Nov | `evidence/contribution-log.md` |
+| Group Contribution Gantt Chart (Appendix E) | Muhammad Yusri | 27 Nov | 27 Nov | `gantt/contribution-gantt.md` |
