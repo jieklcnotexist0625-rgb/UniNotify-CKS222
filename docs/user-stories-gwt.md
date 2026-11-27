@@ -86,9 +86,9 @@
 
 ## 5. Definition of Done (DoD)
 
-1. All GWT scenarios pass, including the negative and boundary cases.
+1. All GWT scenarios above pass, including the negative and boundary cases.
 2. Code change has a completed Review Package (WP1) and Review Decision Record (WP3) with an Accept decision.
 3. Static analysis reports no blocking defect, or accepted risks are signed off by the V&V Engineer in WP2.
-4. Unit and integration tests cover the new behavior. Integration includes the boundary between admissions and notification modules, matching CCA103's four-level testing strategy.
+4. Unit and integration tests cover the new behaviour. Integration includes the boundary between admissions and notification modules, following the four-level testing strategy used in CCA103 (Group 36, 2026b).
 5. Personal data (applicant identifiers and document metadata) is protected by JWT authentication, RBAC, and HTTPS, with no data leaked in logs.
 6. Notion EPG review log records the commit ID, decision, and reviewer, and the GitHub commit references the story ID.
