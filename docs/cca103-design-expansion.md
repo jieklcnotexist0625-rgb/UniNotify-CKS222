@@ -25,9 +25,9 @@ In CCA103 Report 1 and Report 2, Module B covered Receive Deadline Alerts, Manag
 
 To support a full-scale university platform, Module B is expanded in three areas:
 
-* **Automated Scheduling and Trigger Rules:** AlertSchedule evaluates upcoming assignment and intake deadlines against user-configured lead times (such as 7 days, 3 days, 24 hours, and 1 hour before due dates) while skipping completed tasks (TC-B-U03). In Vialing's institutional context, this scales from personal student reminders to intake-wide automated chasing for incomplete applicant documents.
+* **Automated Scheduling and Trigger Rules:** AlertSchedule checks upcoming deadlines against each user's configured lead times (such as 7 days, 3 days, 24 hours, and 1 hour) before due dates while skipping completed tasks (TC-B-U03). In Vialing's institutional context,nthis expands from personal reminders into intake-wide reminders for incomplete student documents.
 * **Multi-Channel Dispatch and Preferences:** Delivery expands from basic in-app alerts and email (SendGrid) to coordinated dispatch across email, SMS (Twilio), and push notifications (Firebase Cloud Messaging), governed by UserPreference settings (emailEnabled, inAppEnabled, and leadTimeDays).
-* **Failure Retry and Audit Logging:** When an external email or SMS gateway is unreachable, the Notification Engine logs the failure, sets the alert deliveryStatus to "RETRY" without marking the user as notified (mirroring TC-B-U09), and records every delivery attempt in the Notifications table for institutional auditability.
+* **Failure Retry and Audit Logging:** When an external email or SMS gateway goes down, the Notification Engine logs the failure, sets the alert deliveryStatus to "RETRY" without marking the user as notified (mirroring TC-B-U09) and records every delivery attempt in the Notifications table for audit tracking.
 
 ## Module C Expansion: Assignment Management System
 In CCA103 Report 1 and Report 2, Module C handled Add Assignment, Edit/Delete Assignment, and View Assignment List through AssignmentForm and AssignmentListPage in the View layer, AssignmentController in the Controller layer, Assignment, Course, and TaskManager in the Domain layer, and AssignmentDAO in the Data Access layer.
