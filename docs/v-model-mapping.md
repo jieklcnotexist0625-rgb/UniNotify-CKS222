@@ -23,6 +23,6 @@ A symmetrical V-Model connects each constructive phase on the left to a matching
 - **Verification vs. Validation:** Verification consists of activities checking whether the system is built right against written specs, including reviews, inspections, static analysis, and unit tests. Validation consists of outcomes proving the right system was built for real users, including UAT and stakeholder sign-off.
 
 ## 3.3 Comparison with UniNotify (CCA103)
-Only Lim Chin Jiek and Gabriel Gan built the original CCA103 UniNotify project, while Chiew Yee Fan contributes through the CKS222 audit and expansion.
+Only Lim Chin Jiek and Gabriel Gan built the original CCA103 UniNotify project, the remaining CKS222 members contribute through the process audit and scope expansion.
 - **Module A (User Management):** UniNotify tested registration, login, password hashing, and RBAC mainly at module level after coding. SkyCMS handles high-stakes student and fee data, so it enforces stricter pre-release security reviews and access gates.
 - **Module B (Reminder and Notification):** UniNotify verified deadline alerts, email or in-app delivery, and retry handling within a coursework scope. Vialing requires stricter production reliability, audit trails, and end-to-end gate checks across campus alerts and payment workflows.
