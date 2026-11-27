@@ -11,7 +11,7 @@
 **Backlog Item:**  
 "Admissions officers need the system to chase applicants whose document uploads are incomplete before an intake closes, instead of maintaining a manual spreadsheet of follow-ups."
 
-- Derived from Vialing's published admissions dashboard (showing an intake with 2,847 applications, 1,203 offers, 891 enrolled, "12 incomplete files", and a queued reminder SMS).
+- Derived from Vialing's published admissions dashboard showing an intake with 2,847 applications, 1,203 offers, 891 enrolled, "12 incomplete files", and a queued reminder SMS (Vialing, n.d.-a).
 - **CCA103 UniNotify Analogue:** Module B (*Reminder & Notification*) — *"Receive Deadline Alerts"* use case, which triggers reminders from deadline proximity and configured lead time. Vialing expands this into a multi-party workflow (admissions officer, applicant, registry) requiring an audit trail.
 
 
@@ -47,37 +47,37 @@
 ## 4. Given-When-Then (GWT) Acceptance Criteria
 
 ### Positive Scenarios
-- **US-1 — Scenario 1A (Reminder sent within lead time):**  
+- **US-1 — Scenario 1A: Reminder sent within lead time:**  
   **Given** an applicant has two required documents marked "incomplete" and the intake deadline is three days away,  
   **When** the daily reminder job runs,  
   **Then** the system sends one reminder to that applicant listing the two missing documents and the deadline,  
   **And** writes a reminder log entry with applicant ID, timestamp, and channel.
 
-- **US-2 — Scenario 2A (Applicant sees missing documents):**  
+- **US-2 — Scenario 2A: Applicant sees missing documents:**  
   **Given** an applicant is authenticated and has one missing document,  
   **When** the applicant opens the application status page,  
   **Then** the page displays the missing document name and an active upload link,  
   **And** the page states the date and time by which the upload must be completed.
 
 ### Negative & Boundary Scenarios
-- **US-1 — Scenario 1B (No reminder for complete applications):**  
+- **US-1 — Scenario 1B: No reminder for complete applications:**  
   **Given** an applicant has all required documents verified,  
   **When** the daily reminder job runs,  
   **Then** no reminder is sent to that applicant.
 
-- **US-1 — Scenario 1C (Boundary at the deadline):**  
+- **US-1 — Scenario 1C: Boundary at the deadline:**  
   **Given** an applicant's documents are incomplete and the intake deadline has already passed,  
   **When** the daily reminder job runs,  
   **Then** no "before deadline" reminder is sent, the application is flagged as "late" for officer review,  
   **And** the system records the reason for auditability.
 
-- **US-2 — Scenario 2B (Reminder channel unavailable):**  
+- **US-2 — Scenario 2B: Reminder channel unavailable:**  
   **Given** the SMS gateway is unavailable when the reminder job runs,  
   **When** the job attempts delivery,  
-  **Then** the system retains the reminder with status `"RETRY"`, logs the failure, and does not mark the applicant as notified,  
-  **And** a retry occurs on the next scheduled run (mirroring CCA103 Module B test case `TC-B-U09`).
+  **Then** the system retains the reminder with status "RETRY", logs the failure, and does not mark the applicant as notified,  
+  **And** a retry occurs on the next scheduled run (mirroring CCA103 Module B test case TC-B-U09`).
 
-- **US-2 — Scenario 2C (Unauthenticated access):**  
+- **US-2 — Scenario 2C: Unauthenticated access:**  
   **Given** a user is not authenticated,  
   **When** the user requests the application status page,  
   **Then** access is denied and the user is redirected to login, with no document information disclosed.
